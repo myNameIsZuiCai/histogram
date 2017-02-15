@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  histogram.h
 //  画柱状图
 //
 //  Created by 上海均衡 on 2017/1/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface histogram : UIView
 
 @end
-

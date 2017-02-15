@@ -15,6 +15,7 @@
 		BDB7E93E1E31EE5E00A7ABF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB7E93C1E31EE5E00A7ABF5 /* LaunchScreen.storyboard */; };
 		BDB7E9491E31EE5E00A7ABF5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9481E31EE5E00A7ABF5 /* ____Tests.m */; };
 		BDB7E9541E31EE5E00A7ABF5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9531E31EE5E00A7ABF5 /* ____UITests.m */; };
+		BDB7E9631E31EE8600A7ABF5 /* histogram.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9621E31EE8600A7ABF5 /* histogram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BDB7E94F1E31EE5E00A7ABF5 /* 画柱状图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画柱状图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB7E9531E31EE5E00A7ABF5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		BDB7E9551E31EE5E00A7ABF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB7E9611E31EE8600A7ABF5 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
+		BDB7E9621E31EE8600A7ABF5 /* histogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = histogram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BDB7E93C1E31EE5E00A7ABF5 /* LaunchScreen.storyboard */,
 				BDB7E93F1E31EE5E00A7ABF5 /* Info.plist */,
 				BDB7E92E1E31EE5E00A7ABF5 /* Supporting Files */,
+				BDB7E9611E31EE8600A7ABF5 /* histogram.h */,
+				BDB7E9621E31EE8600A7ABF5 /* histogram.m */,
 			);
 			path = "画柱状图";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB7E9631E31EE8600A7ABF5 /* histogram.m in Sources */,
 				BDB7E9361E31EE5E00A7ABF5 /* ViewController.m in Sources */,
 				BDB7E9331E31EE5E00A7ABF5 /* AppDelegate.m in Sources */,
 				BDB7E9301E31EE5E00A7ABF5 /* main.m in Sources */,
